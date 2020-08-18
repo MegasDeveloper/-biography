@@ -1,0 +1,1765 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+  /*header*/
+header {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 45%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  background: url(img/qq.jfif) 50% 15% no-repeat;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+  font-family: 'Pragmatica', arial;
+  }
+nav {
+  margin: 0 auto;
+  max-width: 68.750em;
+  width: 100%;
+  background-color: #413D52;
+  height: 18vh;
+}
+.menu-content {
+  display: block;
+  position: absolute;
+  left: 28vh;
+  top: 7vh;
+}
+.menu-content li {
+  display: inline-block;
+  margin-right: 1vh;
+}
+.menu-content li a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #F2F2F2;
+  font-family: 'Pragmatica', arial;
+}
+.menu-content li a:hover,
+.menu-content li a.active {
+  color: #F5B798;
+}
+.intro .intro-text1 {
+  position: absolute;
+  font-size: 7vh;
+  color: #fefefe;
+  top: 70vh;
+  left: 6vh;
+  font-family: 'Pragmatica', arial;
+}
+.intro .intro-text2 {
+  position: absolute;
+  font-size: 4vh;
+  color: #fefefe;
+  top: 83vh;
+  left: 5vh;
+  font-family: 'Pragmatica', arial;
+}
+.intro .intro-text3 {
+  position: absolute;
+  font-size: 2vh;
+  color: #fefefe;
+  top: 88vh;
+  left: 5vh;
+  font-family: 'Pragmatica', arial;
+}
+
+
+ /*<!-- Page content -->*/
+.main {
+  margin-left: 46%; /* Same as the width of the sidebar */
+  padding: 8vh;
+  font-family: 'Pragmatica', arial;
+}
+.main .review h3 {
+  font-size: 2.375em;
+}
+.main p {
+  font-size: 1em;
+}
+.main h3 {
+  font-size: 1.625em;
+  padding-top: 7vh;
+}
+
+.review p {
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+.early p{
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+.education{
+  height: 850px;
+  position: relative;
+  font-family: 'Pragmatica', arial;
+}
+.education p{
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+.education .number {
+  position: absolute;
+  top: 78px;
+  font-weight: 700;
+}
+.education .text {
+  position: absolute;
+  left: 6em;
+  top: 78px;
+}
+.education .number1 {
+  position: absolute;
+  top: 220px;
+  font-weight: 700;
+}
+.education .text1 {
+  position: absolute;
+  left: 6em;
+  top: 220px;
+}
+.education .number2 {
+  position: absolute;
+  top: 339px;
+  font-weight: 700;
+}
+.education .text2 {
+  position: absolute;
+  left: 6em;
+  top: 339px;
+}
+.education .number3 {
+  position: absolute;
+  top: 458px;
+  font-weight: 700;
+}
+.education .text3 {
+  position: absolute;
+  left: 6em;
+  top: 458px;
+}
+.education .number4 {
+  position: absolute;
+  top: 575px;
+  font-weight: 700;
+}
+.education .text4 {
+  position: absolute;
+  left: 6em;
+  top: 575px;
+}
+.education .number5 {
+  position: absolute;
+  top: 718px;
+  font-weight: 700;
+}
+.education .text5 {
+  position: absolute;
+  left: 6em;
+  top: 718px;
+}
+.education .line {
+  position: absolute;
+  height: 643px;
+  width: 0.2vh;
+  left: 4.5em;
+  top: 170px;
+  border: 0.1vh solid #000000;
+  background: #000000;
+}
+.education .ellipse1 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 160px;
+  border-radius: 50%;
+  background: #000000;
+}
+.education .ellipse2 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 302px;
+  border-radius: 50%;
+  background: #000000;
+}
+.education .ellipse3 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 420px;
+  border-radius: 50%;
+  background: #000000;
+}
+.education .ellipse4 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 538px;
+  border-radius: 50%;
+  background: #000000;
+}
+.education .ellipse5 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 657px;
+  border-radius: 50%;
+  background: #000000;
+}
+.education .ellipse6 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 801px;
+  border-radius: 50%;
+  background: #000000;
+}
+
+.work{
+  height: 300px;
+  font-family: 'Pragmatica', arial;
+}
+.work .work-number{
+  font-weight: 700;
+  font-family: 'Pragmatica', arial;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+}
+.work-number i{
+  padding-right: 0.5em;
+}
+
+.business{
+  height: 300px;
+  font-family: 'Pragmatica', arial;
+  padding-top: 3vh;
+}
+.business .business-name{
+  font-weight: 700;
+  font-family: 'Pragmatica', arial;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+}
+.business i{
+  padding-right: 0.5em;
+}
+
+.progress{
+  padding-top: 12vh;
+}
+.progress p{
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+  font-family: 'Pragmatica', arial;
+}
+.progress i{
+  padding-right: 0.5em;
+}
+.hobbies{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.hobbies p{
+  font-family: 'Pragmatica', arial;
+  padding-top: 1.5vh;
+  padding-bottom: 0.5vh;
+}
+.sponsorship {
+  position: relative;
+  height: 710px;
+  font-family: 'Pragmatica', arial;
+}
+.sponsorship-number1 {
+  position: absolute;
+  top: 130px;
+  font-weight: 700;
+}
+.sponsorship-text1 {
+  position: absolute;
+  left: 6.25em;
+  top: 130px;
+}
+.sponsorship-number2 {
+  position: absolute;
+  top: 250px;
+  font-weight: 700;
+}
+.sponsorship-text2 {
+  position: absolute;
+  left: 6em;
+  top: 250px;
+}
+.sponsorship-number3 {
+  position: absolute;
+  top: 340px;
+  font-weight: 700;
+}
+.sponsorship-text3 {
+  position: absolute;
+  left: 6em;
+  top: 340px;
+}
+.sponsorship-number4 {
+  position: absolute;
+  top: 490px;
+  font-weight: 700;
+}
+.sponsorship-text4 {
+  position: absolute;
+  left: 6em;
+  top: 490px;
+}
+.sponsorship-number5 {
+  position: absolute;
+  top: 570px;
+  font-weight: 700;
+}
+.sponsorship-text5 {
+  position: absolute;
+  left: 6em;
+  top: 570px;
+}
+.sponsorship-number6 {
+  position: absolute;
+  top: 690px;
+  font-weight: 700;
+}
+.sponsorship-text6 {
+  position: absolute;
+  left: 6em;
+  top: 690px;
+}
+.sponsorship-line {
+  position: absolute;
+  height: 567px;
+  width: 0.2vh;
+  left: 4.5em;
+  top: 133px;
+  border: 0.063em solid #000000;
+  background: #000000;
+}
+.sponsorship-ellipse1 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 132px;
+  border-radius: 50%;
+  background: #000000;
+}
+.sponsorship-ellipse2 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 252px;
+  border-radius: 50%;
+  background: #000000;
+}
+.sponsorship-ellipse3 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 342px;
+  border-radius: 50%;
+  background: #000000;
+}
+.sponsorship-ellipse4 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 492px;
+  border-radius: 50%;
+  background: #000000;
+}
+.sponsorship-ellipse5 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 570px;
+  border-radius: 50%;
+  background: #000000;
+}
+.sponsorship-ellipse6 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 4.125em;
+  top: 691px;
+  border-radius: 50%;
+  background: #000000;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1330px) {
+  header{
+    width: 100%;
+    background: none;
+    position: absolute;
+  }
+  nav {
+    margin: 0 auto;
+    max-width: none;
+    width: 100%;
+    background-color: #413D52;
+    height: 23.5vh;
+  }
+  .main-menu .menu{
+    position: absolute;
+    top: 8vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+  .main-menu .bio{
+    color: #F5B798;;
+  }
+  .main-menu ul a:hover{
+    color:#F5B798; 
+   }
+  .main-menu .header-img{
+    position: absolute;
+    top: 4vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+  .main-menu .line{
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: 11vh;
+  }
+  .main-menu .header-img a{
+    color: #fff;
+    font-size: 2.6vh;
+    font-weight: 700;
+    height: none;
+    border-right: none;
+    text-decoration: none;
+  }
+  .main-img{
+    padding-top: 140px;
+  }
+  .review{
+    position: absolute;
+    bottom: 100px;
+    left: 370px;
+    margin: auto;
+  }
+  .main{
+    margin: auto;
+  }
+  .menu-content {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 13%;
+    left: 5%;
+    right: 5%;
+  }
+  .menu-content li {
+    display: inline-block;
+    margin-right: 4%;
+  }
+  .menu-content li a {
+    text-decoration: none;
+    font-size: 0.75em;
+    color: #fff;
+    font-family: 'Pragmatica', arial;
+  }
+  .main h3 {
+    font-size: 1.625em;
+    padding-top: 3em;
+  }
+  .main-menu,
+  .menu,
+  .header-img{
+    display:flex;
+  }
+  .main-menu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    overflow:hidden;
+  }
+  .main-menu ul a{
+    color: #fff;
+    padding-right: 8.8vh;
+    text-decoration:none;
+    border-bottom: none;
+  }
+  .menu-btn,
+  .intro,
+  .social-icon{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1330px){
+  .main-menu .bio{
+    color: #F5B798;;
+  }
+  .main-menu {
+    height: 6vh;
+  }
+  .main-menu .menu{
+    position: absolute;
+    top: 2vh;
+    left: 30vh;
+    clear:none;
+    max-height:none;
+  }
+  .main-menu .header-img{
+    position: absolute;
+    top: 2vh;
+    left: 15px;
+    width: 29vh;
+  }
+  .main-menu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    overflow:hidden;
+  }
+  .main-menu li{
+    display: inline-block;
+    padding-right: 4vh;
+  }
+  .main-menu ul a{
+    font-size: 2.2vh;
+    color: #fff;
+    text-decoration:none;
+    border-bottom: none;
+  }
+  .main-menu ul a:hover{
+   color:#F5B798; 
+  }
+  .main-menu .header-img a{
+    color: #fff;
+    font-size: 2.2vh;
+    height: 1vh;
+    border-right: 1px solid #fff;
+    padding-right: 5.7vh;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .menu-btn,
+  .social-icon,
+  .main-menu .line,
+  .main-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px){
+  header{
+    width: 100%;
+    font-family: 'Pragmatica', arial;
+    background: none;
+  }
+  nav {
+    width: auto;
+    background-color: #413D52;
+    height: auto;
+    position: relative;
+    bottom: 1px;
+  }
+  .main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+  .main-menu ul a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 2.3vh;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  .main-menu ul a:hover{
+   color: #F5B798; 
+  }
+  .main-menu .header-img{
+    float: left;
+    display: block;
+    position: relative;
+    top: 13px;
+    left: 20px;
+  }
+  .main-menu .header-img a{
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  .main-menu .menu{
+    clear:both;
+    max-height:0;
+    transition:max-height .2s ease-out;
+    text-align: left;
+  }
+  .main-menu .menu-icon{
+    padding: 24px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    background: #333333;
+  }
+  
+  .main-menu .menu-icon .nav-icon{
+    background:#fff;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+  }
+  
+  .main-menu .menu-icon .nav-icon:before{
+    background:#fff;
+    content:"";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;  
+  }
+  
+  .main-menu .menu-icon .nav-icon:after{
+    background:#fff;
+    content:"";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;  
+  
+  }
+   
+  .main-menu .menu-btn:checked ~ .menu{
+    max-height: 55vh;
+  }
+  
+  .main-menu .menu-btn:checked ~ .menu-icon .nav-icon{
+    background:transparent;
+  }
+  .main-menu .menu-btn:checked ~ .menu-icon .nav-icon:before{
+    transform: rotate(-45deg);
+    top:0;
+  }
+  .main-menu .menu-btn:checked ~ .menu-icon .nav-icon:after{
+    transform: rotate(45deg);
+    top:0;
+  }
+
+  .menu-content,
+  .intro,
+  .main-menu .line,
+  .main-menu .menu-btn{
+    display:none;
+  }
+  .main {
+    margin-left: 0;
+    padding: 0;
+    margin: 12px;
+    font-family: 'Pragmatica', arial;
+  }
+  .main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+  }
+  .main h3{
+    padding-top: 2em;
+  }
+  .main-menu .bio{
+    color: #F5B798;;
+  }
+  .social-icon {
+    background: #333333;
+    height: 1.8em;
+    position: relative;
+  }
+  .social-icons {
+    float: center;
+    padding: 4px 30px;
+  }
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+  }
+  .social-icons li img {
+    width:20px;
+    height:20px;
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width:768px) and (max-height: 600px){
+  .education{
+    height: 750px;
+    position: relative;
+    font-family: 'Pragmatica', arial;
+  }
+  .education p{
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .education .number {
+    position: absolute;
+    top: 70px;
+    font-weight: 700;
+  }
+  .education .text {
+    position: absolute;
+    left: 95px;
+    top: 70px;
+  }
+  .education .number1 {
+    position: absolute;
+    top: 210px;
+    font-weight: 700;
+  }
+  .education .text1 {
+    position: absolute;
+    left: 95px;
+    top: 210px;
+  }
+  .education .number2 {
+    position: absolute;
+    top: 340px;
+    font-weight: 700;
+  }
+  .education .text2 {
+    position: absolute;
+    left: 95px;
+    top: 340px;
+  }
+  .education .number3 {
+    position: absolute;
+    top: 476px;
+    font-weight: 700;
+  }
+  .education .text3 {
+    position: absolute;
+    left: 95px;
+    top: 476px;
+  }
+  .education .number4 {
+    position: absolute;
+    top: 560px;
+    font-weight: 700;
+  }
+  .education .text4 {
+    position: absolute;
+    left: 95px;
+    top: 560px;
+  }
+  .education .number5 {
+    position: absolute;
+    top: 660px;
+    font-weight: 700;
+  }
+  .education .text5 {
+    position: absolute;
+    left: 95px;
+    top: 660px;
+  }
+  .education .line {
+    position: absolute;
+    height: 583px;
+    width: 0.2vh;
+    left: 4.5em;
+    top: 126px;
+    border: 0.1vh solid #000000;
+    background: #000000;
+  }
+  .education .ellipse1 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 115px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse2 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 256px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse3 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 386px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse4 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 523px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse5 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 607px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse6 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 707px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  
+  .work{
+    height: 290px;
+    font-family: 'Pragmatica', arial;
+  }
+  .work .work-number{
+    font-weight: 700;
+    font-family: 'Pragmatica', arial;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+  .work-number i{
+    padding-right: 0.5em;
+  }
+  
+  .business{
+    height: 290px;
+    font-family: 'Pragmatica', arial;
+    padding-top: 3vh;
+  }
+  .business .business-name{
+    font-weight: 700;
+    font-family: 'Pragmatica', arial;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+  .business i{
+    padding-right: 0.5em;
+  }
+  
+  .progress{
+    padding-top: 12vh;
+  }
+  .progress p{
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    font-family: 'Pragmatica', arial;
+  }
+  .progress i{
+    padding-right: 0.5em;
+  }
+  
+  .hobbies{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .hobbies p{
+    font-family: 'Pragmatica', arial;
+    padding-top: 1.5vh;
+    padding-bottom: 0.5vh;
+  }
+  
+  .sponsorship {
+    position: relative;
+    height: 670px;
+    font-family: 'Pragmatica', arial;
+  }  
+  .sponsorship-number1 {
+    position: absolute;
+    top: 150px;
+    font-weight: 700;
+  }
+  
+  .sponsorship-text1 {
+    position: absolute;
+    left: 6.25em;
+    top: 150px;
+  }
+  
+  .sponsorship-number2 {
+    position: absolute;
+    top: 280px;
+    font-weight: 700;
+  }
+  
+  .sponsorship-text2 {
+    position: absolute;
+    left: 6em;
+    top: 280px;
+  }
+  
+  .sponsorship-number3 {
+    position: absolute;
+    top: 380px;
+    font-weight: 700;
+  }
+  
+  .sponsorship-text3 {
+    position: absolute;
+    left: 6em;
+    top: 380px;
+  }
+  
+  .sponsorship-number4 {
+    position: absolute;
+    top: 515px;
+    font-weight: 700;
+  }
+  
+  .sponsorship-text4 {
+    position: absolute;
+    left: 6em;
+    top: 515px;
+  }
+  
+  .sponsorship-number5 {
+    position: absolute;
+    top: 600px;
+    font-weight: 700;
+  }
+  
+  .sponsorship-text5 {
+    position: absolute;
+    left: 6em;
+    top: 600px;
+  }
+  .sponsorship-number6 {
+    position: absolute;
+    top: 720px;
+    font-weight: 700;
+  }
+  .sponsorship-text6 {
+    position: absolute;
+    left: 6em;
+    top: 720px;
+  }
+  .sponsorship-line {
+    position: absolute;
+    height: 572px;
+    width: 0.2vh;
+    left: 4.5em;
+    top: 160px;
+    border: 0.063em solid #000000;
+    background: #000000;
+  }
+  
+  .sponsorship-ellipse1 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 152px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  
+  .sponsorship-ellipse2 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 281px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  
+  .sponsorship-ellipse3 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 382px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  
+  .sponsorship-ellipse4 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 516px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  
+  .sponsorship-ellipse5 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 600px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse6 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 722px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media screen and (max-width:375px) and (max-height: 700px){
+  .education{
+    height: 800px;
+    position: relative;
+    font-family: 'Pragmatica', arial;
+  }
+  .education p{
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .education .number {
+    position: absolute;
+    top: 70px;
+    font-weight: 700;
+  }
+  .education .text {
+    position: absolute;
+    left: 95px;
+    top: 70px;
+  }
+  .education .number1 {
+    position: absolute;
+    top: 230px;
+    font-weight: 700;
+  }
+  .education .text1 {
+    position: absolute;
+    left: 95px;
+    top: 230px;
+  }
+  .education .number2 {
+    position: absolute;
+    top: 360px;
+    font-weight: 700;
+  }
+  .education .text2 {
+    position: absolute;
+    left: 95px;
+    top: 360px;
+  }
+  .education .number3 {
+    position: absolute;
+    top: 506px;
+    font-weight: 700;
+  }
+  .education .text3 {
+    position: absolute;
+    left: 95px;
+    top: 506px;
+  }
+  .education .number4 {
+    position: absolute;
+    top: 600px;
+    font-weight: 700;
+  }
+  .education .text4 {
+    position: absolute;
+    left: 95px;
+    top: 600px;
+  }
+  .education .number5 {
+    position: absolute;
+    top: 690px;
+    font-weight: 700;
+  }
+  .education .text5 {
+    position: absolute;
+    left: 95px;
+    top: 690px;
+  }
+  .education .line {
+    position: absolute;
+    height: 622px;
+    width: 0.2vh;
+    left: 4.5em;
+    top: 126px;
+    border: 0.1vh solid #000000;
+    background: #000000;
+  }
+  .education .ellipse1 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 115px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse2 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 277px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse3 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 408px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse4 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 553px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse5 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 648px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse6 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 737px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .work{
+    height: 320px;
+    font-family: 'Pragmatica', arial;
+  }
+  .work .work-number{
+    font-weight: 700;
+    font-family: 'Pragmatica', arial;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+  .work-number i{
+    padding-right: 0.5em;
+  }
+  .business{
+    height: 320px;
+    font-family: 'Pragmatica', arial;
+    padding-top: 3vh;
+  }
+  .business .business-name{
+    font-weight: 700;
+    font-family: 'Pragmatica', arial;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+  .business i{
+    padding-right: 0.5em;
+  }
+  .progress{
+    padding-top: 12vh;
+  }
+  .progress p{
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    font-family: 'Pragmatica', arial;
+  }
+  .progress i{
+    padding-right: 0.5em;
+  }
+  .hobbies{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .hobbies p{
+    font-family: 'Pragmatica', arial;
+    padding-top: 1.5vh;
+    padding-bottom: 0.5vh;
+  }
+  .sponsorship {
+    position: relative;
+    height: 670px;
+    font-family: 'Pragmatica', arial;
+  }  
+  .sponsorship-number1 {
+    position: absolute;
+    top: 150px;
+    font-weight: 700;
+  }
+  .sponsorship-text1 {
+    position: absolute;
+    left: 6.25em;
+    top: 150px;
+  }
+  .sponsorship-number2 {
+    position: absolute;
+    top: 300px;
+    font-weight: 700;
+  }
+  .sponsorship-text2 {
+    position: absolute;
+    left: 6em;
+    top: 300px;
+  }
+  .sponsorship-number3 {
+    position: absolute;
+    top: 400px;
+    font-weight: 700;
+  }
+  .sponsorship-text3 {
+    position: absolute;
+    left: 6em;
+    top: 400px;
+  }
+  .sponsorship-number4 {
+    position: absolute;
+    top: 575px;
+    font-weight: 700;
+  }
+  .sponsorship-text4 {
+    position: absolute;
+    left: 6em;
+    top: 575px;
+  }
+  .sponsorship-number5 {
+    position: absolute;
+    top: 680px;
+    font-weight: 700;
+  }
+  .sponsorship-text5 {
+    position: absolute;
+    left: 6em;
+    top: 680px;
+  }
+  .sponsorship-number6{
+    position: absolute;
+    top: 830px;
+    font-weight: 700;
+  }
+  .sponsorship-text6{
+    position: absolute;
+    left: 6em;
+    top: 830px;
+  }
+  .sponsorship-line {
+    position: absolute;
+    height: 681px;
+    width: 0.2vh;
+    left: 4.5em;
+    top: 160px;
+    border: 0.063em solid #000000;
+    background: #000000;
+  }
+  .sponsorship-ellipse1 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 152px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse2 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 300px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse3 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 402px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse4 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 577px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse5 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 681px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse6 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 830px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width:375px){
+  .main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+}
+
+
+@media screen and (max-width:320px){
+  .main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+  .education{
+    height: 999px;
+    position: relative;
+    font-family: 'Pragmatica', arial;
+  }
+  .education p{
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .education .number {
+    position: absolute;
+    top: 70px;
+    font-weight: 700;
+  }
+  .education .text {
+    position: absolute;
+    left: 95px;
+    top: 70px;
+  }
+  .education .number1 {
+    position: absolute;
+    top: 280px;
+    font-weight: 700;
+  }
+  .education .text1 {
+    position: absolute;
+    left: 95px;
+    top: 280px;
+  }
+  .education .number2 {
+    position: absolute;
+    top: 430px;
+    font-weight: 700;
+  }
+  .education .text2 {
+    position: absolute;
+    left: 95px;
+    top: 430px;
+  }
+  .education .number3 {
+    position: absolute;
+    top: 620px;
+    font-weight: 700;
+  }
+  .education .text3 {
+    position: absolute;
+    left: 95px;
+    top: 620px;
+  }
+  .education .number4 {
+    position: absolute;
+    top: 750px;
+    font-weight: 700;
+  }
+  .education .text4 {
+    position: absolute;
+    left: 95px;
+    top: 750px;
+  }
+  .education .number5 {
+    position: absolute;
+    top: 900px;
+    font-weight: 700;
+  }
+  .education .text5 {
+    position: absolute;
+    left: 95px;
+    top: 900px;
+  }
+  .education .line {
+    position: absolute;
+    height: 833px;
+    width: 0.2vh;
+    left: 4.5em;
+    top: 126px;
+    border: 0.1vh solid #000000;
+    background: #000000;
+  }
+  .education .ellipse1 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 115px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse2 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 328px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse3 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 477px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse4 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 667px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse5 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 798px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .education .ellipse6 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 948px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .work{
+    height: 340px;
+    font-family: 'Pragmatica', arial;
+  }
+  .work .work-number{
+    font-weight: 700;
+    font-family: 'Pragmatica', arial;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+  .work-number i{
+    padding-right: 0.5em;
+  }
+  .business{
+    height: 340px;
+    font-family: 'Pragmatica', arial;
+    padding-top: 3vh;
+  }
+  .business .business-name{
+    font-weight: 700;
+    font-family: 'Pragmatica', arial;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+  .business i{
+    padding-right: 0.5em;
+  }
+  .progress{
+    padding-top: 12vh;
+  }
+  .progress p{
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    font-family: 'Pragmatica', arial;
+  }
+  .progress i{
+    padding-right: 0.5em;
+  }
+  .hobbies{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .hobbies p{
+    font-family: 'Pragmatica', arial;
+    padding-top: 1.5vh;
+    padding-bottom: 0.5vh;
+  }
+  .sponsorship {
+    position: relative;
+    height: 990px;
+    font-family: 'Pragmatica', arial;
+  }  
+  .sponsorship-number1 {
+    position: absolute;
+    top: 150px;
+    font-weight: 700;
+  }
+  .sponsorship-text1 {
+    position: absolute;
+    left: 6em;
+    top: 150px;
+  }
+  .sponsorship-number2 {
+    position: absolute;
+    top: 330px;
+    font-weight: 700;
+  }
+  .sponsorship-text2 {
+    position: absolute;
+    left: 6em;
+    top: 330px;
+  }
+  .sponsorship-number3 {
+    position: absolute;
+    top: 445px;
+    font-weight: 700;
+  }
+  .sponsorship-text3 {
+    position: absolute;
+    left: 6em;
+    top: 445px;
+  }
+  .sponsorship-number4 {
+    position: absolute;
+    top: 660px;
+    font-weight: 700;
+  }
+  .sponsorship-text4 {
+    position: absolute;
+    left: 6em;
+    top: 660px;
+  }
+  .sponsorship-number5 {
+    position: absolute;
+    top: 755px;
+    font-weight: 700;
+  }
+  .sponsorship-text5 {
+    position: absolute;
+    left: 6em;
+    top: 755px;
+  }
+  .sponsorship-number6 {
+    position: absolute;
+    top: 925px;
+    font-weight: 700;
+  }
+  .sponsorship-text6 {
+    position: absolute;
+    left: 6em;
+    top: 925px;
+  }
+  .sponsorship-line {
+    position: absolute;
+    height: 775px;
+    width: 0.2vh;
+    left: 4.5em;
+    top: 160px;
+    border: 0.063em solid #000000;
+    background: #000000;
+  }
+  .sponsorship-ellipse1 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 152px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse2 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 332px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse3 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 447px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse4 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 662px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse5 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 756px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .sponsorship-ellipse6 {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 4.125em;
+    top: 926px;
+    border-radius: 50%;
+    background: #000000;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1330px) and (max-height: 1000px){
+  .review{
+    position: absolute;
+    bottom: 400px;
+    left: 400px;
+    margin: auto;
+  }
+  .main-img{
+    padding-top: 200px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1330px) and (max-height: 900px){
+  .review{
+    position: absolute;
+    bottom: 350px;
+    left: 400px;
+    margin: auto;
+  }
+  .main-img{
+    padding-top: 180px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1330px) and (max-height: 800px){
+  .review{
+    position: absolute;
+    bottom: 250px;
+    left: 400px;
+    margin: auto;
+  }
+  .main-img{
+    padding-top: 180px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1330px) and (max-height: 700px){
+  .review{
+    position: absolute;
+    bottom: 150px;
+    left: 400px;
+    margin: auto;
+  }
+  .main-img{
+    padding-top: 180px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1330px) and (max-height: 600px){
+  .review{
+    position: absolute;
+    bottom: 50px;
+    left: 400px;
+    margin: auto;
+  }
+  .main-img{
+    padding-top: 180px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1330px) and (max-height: 400px){
+  .review{
+    position: absolute;
+    bottom: -100px;
+    left: 400px;
+    margin: auto;
+  }
+  .main-img{
+    padding-top: 180px;
+  }
+}
